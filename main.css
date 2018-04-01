@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(221, 237, 255);
+}
+
+h1, h2 {
+    color: rgb(71, 119, 173);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Arial Black";
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 1px 1px rgb(46, 77, 112);
+}
+
+h1 {
+    font-size: 5vw;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 2vw;
+    margin-top: 5px;
+}
