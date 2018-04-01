@@ -19,7 +19,7 @@
 </div>
 
 <script>
-    function openTab(evt, cityName) {
+    function openTab(evt, tabName) {
         // Declare all variables
         var i, tabcontent, tablinks;
 
@@ -36,14 +36,11 @@
         }
 
         // Show the current tab, and add an "active" class to the button that opened the tab
-        document.getElementById(cityName).style.display = "block";
+        document.getElementById(tabName).style.display = "block";
         evt.currentTarget.className += " active";
     }
 </script>
-<script>
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-</script>
+
 
 <!-- Tab content -->
 <div id="Games" class="tabcontent">
