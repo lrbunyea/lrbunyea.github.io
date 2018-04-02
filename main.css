@@ -1,5 +1,9 @@
+img {
+    image-orientation: from-image;
+}
+
 body {
-    background-color: white/*rgb(221, 237, 255)*/;
+    background-color: whitesmoke;
 }
 
 h1, h2 {
@@ -31,8 +35,10 @@ h4 {
     font-size: 1.5vw;
     color: rgb(85, 145, 214);
     font-family: "Arial Black";
-    text-align: center;
-    margin-top: 5px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 
 }
 
@@ -47,15 +53,15 @@ h3 {
 
 p {
     color: rgb(24, 40, 58);
-    font-family: Verdana;
-    margin-left: 10%;
+    font-size: .9vw;
+    font-family: "Helvetica";
 }
 
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 1px solid rgb(147, 84, 2);
+    background-color: rgb(249, 223, 189);
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -77,12 +83,12 @@ p {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ddd;
+    background-color: rgb(247, 208, 158);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: #ccc;
+    background-color: rgb(247, 190, 118);
 }
 
 /* Style the tab content */
@@ -98,4 +104,16 @@ p {
 @keyframes fadeEffect {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
