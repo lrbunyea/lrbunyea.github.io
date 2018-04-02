@@ -15,7 +15,7 @@
     <button class="tablinks" onclick="openTab(event, 'Games')">Games</button>
     <button class="tablinks" onclick="openTab(event, 'Writing')">Writing</button>
     <button class="tablinks" onclick="openTab(event, 'Speaking')">Speaking</button>
-    <button class="tablinks" onclick="openTab(event, 'defaultOpen')">About</button>
+    <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
 </div>
 
 <script>
@@ -41,7 +41,6 @@
     }
 </script>
 
-
 <!-- Tab content -->
 <div id="Games" class="tabcontent">
     <h4>This is a link to my games, boy.</h4>
@@ -55,7 +54,7 @@
     <h4>Here is my public speaking, boy.</h4>
 </div>
 
-<div id="defaultOpen" class="tabcontent">
+<div id="About" class="tabcontent">
     <div class="row">
         <div class="column">
             <img src="images/me.png" alt="Me" style="width:40%;height:40%;margin-top: 80px; margin-left: 25%">
@@ -89,6 +88,11 @@
         </div>
     </div>
 </div>
+
+<script>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
 
 </body>
 </html>
