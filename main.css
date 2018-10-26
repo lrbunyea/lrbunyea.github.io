@@ -3,18 +3,18 @@ img {
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: #2d4249;
 }
 
 a {
-    color: rgb(204, 117, 4);
+    color: #eb9385;
     font-size: .9vw;
     font-family: "Helvetica";
     padding-left: 60px;
 }
 
 h1, h2 {
-    color: rgb(71, 119, 173);
+    color: #937782;
     text-align: center;
     text-transform: uppercase;
     font-family: "Arial Black";
@@ -23,7 +23,6 @@ h1, h2 {
     margin-right: 30%;
     padding-right: 10px;
     padding-left: 10px;
-    text-shadow: 1px 1px rgb(46, 77, 112);
 }
 
 h1 {
@@ -40,7 +39,7 @@ h2 {
 
 h4 {
     font-size: 1.5vw;
-    color: rgb(85, 145, 214);
+    color: #f5eedb;
     font-family: "Arial Black";
     text-align: left;
     margin-top: 50px;
@@ -51,7 +50,7 @@ h4 {
 
 h5 {
     font-size: 1.2vw;
-    color: rgb(85, 145, 214);
+    color: rgb(245, 238, 219);
     font-family: "Arial Black";
     text-align: left;
     margin-top: 50px;
@@ -61,16 +60,15 @@ h5 {
 }
 
 h3 {
-    color: rgb(204, 117, 4);
+    color: #99c0bc;
     text-transform: uppercase;
     font-family: "Arial Black";
-    text-shadow: 1px 1px rgb(147, 84, 2);
     margin-left: 10%;
     font-size: 2vw;
 }
 
 p {
-    color: rgb(24, 40, 58);
+    color: rgb(245, 238, 219);
     font-size: .9vw;
     font-family: "Helvetica";
 }
@@ -78,8 +76,7 @@ p {
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid rgb(147, 84, 2);
-    background-color: rgb(249, 223, 189);
+    background-color: #2d4249;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -90,23 +87,22 @@ p {
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    width: 25%;
+    width: 33.3%;
     transition: 0.3s;
-    color: rgb(204, 117, 4);
+    color: #99c0bc;
     text-transform: uppercase;
     font-family: "Arial Black";
-    text-shadow: 1px 1px rgb(147, 84, 2);
     font-size: 1.5vw;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: rgb(247, 208, 158);
+    background-color: rgba(45, 66, 73, 0.82);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: rgb(247, 190, 118);
+    border: #2d4249;
 }
 
 /* Style the tab content */
@@ -128,6 +124,17 @@ p {
     float: left;
     width: 50%;
 }
+
+.leftHeaderColumn {
+    float: left;
+    width: 25%;
+}
+
+.rightHeaderColumn {
+    float: left;
+    width: 25%;
+}
+
 
 /* Clear floats after the columns */
 .row:after {
