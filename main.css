@@ -52,14 +52,28 @@ h4 {
 }
 
 h5 {
-    font-size: 1.2vw;
-    color: rgb(245, 238, 219);
+    font-size: 22px;
+    color: rgb(153, 192, 188);
+    border-bottom: 2px solid rgb(153, 192, 188);
     font-family: "Arial Black";
     text-align: left;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
     text-transform: uppercase;
-    padding-left: 60px;
+}
+
+h6 {
+    font-size: 20px;
+    color: #f5eedb;
+    font-family: "Arial Black";
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -127,22 +141,9 @@ p {
     to {opacity: 1;}
 }
 
-.column {
-    float: left;
-    width: 50%;
-}
-
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
